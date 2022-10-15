@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "stockpred"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+tensorflow = "^2.10.0"
+numpy = "^1.23.4"
+pandas = "^1.5.0"
+matplotlib = "^3.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
